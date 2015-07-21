@@ -3,16 +3,16 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
 <title> </title>
-    <script src="../bower_components/webcomponentsjs/webcomponents.js"></script>
-    <link rel="import" href="../bower_components/polymer/polymer.html">
-    <link rel="import" href="../bower_components/paper-toolbar/paper-toolbar.html">
-    <link rel="import" href="../bower_components/paper-material/paper-material.html">
-    <link rel="import" href="../bower_components/google-youtube/google-youtube.html">
-    <link rel="import" href="/polymer-slideshow.html">
+    <script src="bower_components/webcomponentsjs/webcomponents.js"></script>
+    <link rel="import" href="bower_components/polymer/polymer.html">
+    <link rel="import" href="bower_components/paper-toolbar/paper-toolbar.html">
+    <link rel="import" href="bower_components/paper-material/paper-material.html">
+    <link rel="import" href="bower_components/google-youtube/google-youtube.html">
+    
 
 
-    <link rel="stylesheet" href="css/owl.carousel.css">
-    <link rel="stylesheet" href="css/owl.theme.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
     <link rel="stylesheet" href="css/style.css">
 
 
@@ -57,24 +57,56 @@
 </paper-material>
 
 <paper-material class="slider slider1">
-    <img src="imgs/sdr1.jpg">
+    <div class="carousel1">
+    
+    
+        <div><img src="imgs/sdr1.jpg"></div>
+        <div><img src="imgs/sdr2.jpg"></div>
+        <div><img src="imgs/sdr3.jpg"></div>
+        <div><img src="imgs/sdr4.jpg"></div>
+        <div><img src="imgs/sdr5.jpg"></div>
+   
+</div>
+    
+
 
 </paper-material>
 
 
 <paper-material class="socialHub">
+    <div class="titre"><h1>Así se ve #MyBreak<br><span class="titreSp"> en las Redes Sociales:</span></h1></div>
+    
+    <script async src="https://d36hc0p18k1aoc.cloudfront.net/public/js/modules/tintembed.js"></script>
+    <div class="tintup" data-id="kitkat_sh" data-columns="" data-mobilescroll="true"    data-infinitescroll="true"  style="height:70%; width:60%; left:20%; top: 20%"></div>
 
 
 </paper-material>
 
 <paper-material class="slider slider2">
-       <img src="imgs/sdr2.jpg">
+        <div class="carousel2">
+    
+    
+        <div class="kit1">
+            <img src="imgs/kit1.jpg">
+            <h1 class="titKit1">Have a break, have a Kit Kat.&reg;</h1>
+            <h3 class="txtKit1">El delicioso sabor de KITKAT&reg; regresa a México. Este cremoso chcolate con leche relleno con una crujiente oblea, viene a darnos un Break a todos.</h3>
+        </div>
+        <div class="kit2">
+            <img src="imgs/kit2.jpg">
+            <h3 class="txtKit2">El nuevo KITKAT&reg; Chunky llega a México para darnos un Break de proporciones épicas. La enorma y crujiente oblea ha sido cubierta por el clásico chocolate con leche para que puedas darte el Break más grande de tu vida. <br><br><span>De venta sólo en OXXO&reg;</span></h3>
+            
+            </div>
+        <div class="kit3"><img src="imgs/kit3.jpg"></div>
+        
+   
+</div>
 
 </paper-material>
 
 
 
 <paper-material class="footer">
+    <p>&reg;NESTLÉ MÉXICO TÉRMINOS Y CONDICIONES Y POLÍTICA DE PRIVACIDAD &reg; MARCAS REGISTRADAS PROPIEDAD DE SOCIÉTÉ DE PRODUITS NESTLÉ S.A. 1800 VEVEY, SUIZA. <br> CONTACTO Call Center: 5267 ó 01800 363 7853 </p>
     <img src="imgs/lg-footer.jpg">
 
 </paper-material>
@@ -99,10 +131,39 @@
 
 
 
-      <script src= "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
-    </script>
+      <script type="text/javascript" src= "bower_components/jquery/dist/jquery.min.js"></script>
+        <script type="text/javascript" src="slick/slick.min.js"></script>
+       
         <script>
+            
+            
+            
+       		
 
+            
+            
+                $(document).ready(function(){
+               
+               
+               
+  $('.carousel1').slick({
+    
+    autoplay: true,
+    autoplaySpeed: 2000,
+    slidesToShow: 1,
+    
+  });
+                    
+    $('.carousel2').slick({
+    
+    autoplay: true,
+    autoplaySpeed: 2000,
+    slidesToShow: 1,
+    
+  });
+                    
+});
+		
 
 
 
