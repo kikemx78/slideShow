@@ -1,0 +1,120 @@
+html, body{
+    margin: 0;
+}
+
+paper-toolbar{
+    height: 100px;
+
+}
+
+.slider{
+    height: 100%;
+}
+
+.socialHub{
+    height: 150%;
+    background-image: url(../imgs/layerShub.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.footer{
+
+    background-color: #ff0016 ;
+    height: 100px;
+    width: 100%;
+
+}
+
+
+.menu{
+    width: 100%;
+    font-size: 1.5em;
+
+}
+
+
+.menu img{
+    width: 135px;
+    position: absolute;
+    top: -6%
+
+
+
+}
+
+.menu ul{
+    list-style: none;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    font-family: 'Arial';
+
+}
+
+.menu li{
+    display: inline-block;
+    padding-right: 5%;
+
+
+}
+
+#links{
+    width: 10%;
+    position: absolute;
+    right: 5%;
+
+}
+
+#links li{
+    padding-right: 17%;
+}
+
+#links img{
+    width: 35px;
+
+}
+
+.slider img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: block;
+}
+
+
+
+.slider1{
+
+
+
+
+}
+
+
+.slider2{
+
+
+
+}
+
+.footer img{
+    float: right;
+    display: block;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
