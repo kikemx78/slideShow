@@ -1,5 +1,44 @@
+@font-face{
+    font-family:'TradeGothic';
+    src:url(../fonts/TradeGothciLT/TradeGothicLT-BoldCondTwenty.eot) format('embedded-opentype'),
+        url(../fonts/TradeGothciLT/TradeGothicLT-BoldCondTwenty.woff) format('woff'),
+        url(../fonts/TradeGothciLT/TradeGothicLT-BoldCondTwenty.ttf) format('truetype'),
+        url(../fonts/TradeGothciLT/TradeGothicLT-BoldCondTwenty.svg) format('svg')
+}
+
+@font-face{
+    font-family:'TradeGothicOb';
+    src:url(../fonts/TradeGothciLT/TradeGothicLT-BoldCondTwentyObl.eot) format('embedded-opentype'),
+        url(../fonts/TradeGothciLT/TradeGothicLT-BoldCondTwentyObl.woff) format('woff'),
+        url(../fonts/TradeGothciLT/TradeGothicLT-BoldCondTwentyObl.ttf) format('truetype'),
+        url(../fonts/TradeGothciLT/TradeGothicLT-BoldCondTwentyObl.svg) format('svg')
+}
+
+@font-face{
+    font-family:'FranklinGothicBook';
+    src:url(../fonts/FranklinGothicBook/FranklinGothic-BookItalic.eot) format('embedded-opentype'),
+        url(../fonts/FranklinGothicBook/FranklinGothic-BookItalic.woff) format('woff'),
+        url(../fonts/FranklinGothicBook/FranklinGothic-BookItalic.ttf) format('truetype'),
+        url(../fonts/FranklinGothicBook/FranklinGothic-BookItalic.svg) format('svg')
+}
+
+
+
+
+
+
+
+
+
+
 html, body{
     margin: 0;
+
+    overflow-x: hidden;
+
+
+
+
 }
 
 paper-toolbar{
@@ -31,6 +70,7 @@ paper-toolbar{
 .menu{
     width: 100%;
     font-size: 1.5em;
+    font-family: 'TradeGothic';
 
 }
 
@@ -50,7 +90,7 @@ paper-toolbar{
     text-align: center;
     position: absolute;
     top: 20%;
-    font-family: 'Arial';
+
 
 }
 
@@ -78,7 +118,14 @@ paper-toolbar{
 }
 
 .slider img{
-    width: 100%;
+    width: 15%;
+    height: 100%;
+    position: absolute;
+    display: block;
+}
+
+.slider2 img{
+    width: 20%;
     height: 100%;
     position: absolute;
     display: block;
@@ -86,17 +133,64 @@ paper-toolbar{
 
 
 
-.slider1{
+.slider1 img{
+
+}
+
+.titre{
+    font-family:'TradeGothicOb';
+    font-size: 2em;
+    width: 50%;
+    left: 25%;
+    text-align: center;
+    color: white;
+    position: absolute;
+
+}
+
+.titreSp{
+    font-size: 0.5em;
+}
 
 
+
+.slider2{
+    font-family:'FranklinGothicBook';
+
+}
+
+.kit1 h1{
+
+    position: relative;
+    color: white;
+    font-size: 3.5em;
+    width: 100%;
+    text-align: center;
+
+
+}
+
+.kit1 h3{
+    font-family: 'TradeGothicOb';
+    position: relative;
+    color: white;
+    font-size: 1.8em;
+    width: 35%;
+    left: 55%;
+    top: 30%;
 
 
 }
 
 
-.slider2{
-
-
+.kit2 h3{
+    font-family: 'TradeGothicOb';
+    position: relative;
+    color: white;
+    font-size: 1.8em;
+    width: 30%;
+    top: 40%;
+    left: 15%;
 
 }
 
@@ -104,6 +198,19 @@ paper-toolbar{
     float: right;
     display: block;
     height: 100%;
+}
+
+.footer p{
+    font-family: 'Arial';
+    width: 85%;
+    font-size: 0.7em;
+    float: left;
+    color: white;
+    font-weight: 100;
+    position: absolute;
+    line-height: 1.3em;
+    bottom: 0%;
+    left: 2%;
 }
 
 
